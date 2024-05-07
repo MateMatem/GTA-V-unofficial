@@ -1,10 +1,9 @@
-<!-- Main.html -->
 <!DOCTYPE html>
 <html>
 <head>
   <title>Wallpaper Changer</title>
   <style>
-    /* Add some basic styling to make the image fit the page */
+   
     body {
       margin: 0;
       padding: 0;
@@ -24,7 +23,7 @@
       object-fit: cover;
       opacity: 1;
     }
-    /* Add a scrollable container for the images */
+    
     #image-container {
       position: fixed;
       top: 0;
@@ -36,7 +35,7 @@
       z-index: 100;
       background-color: transparent;
     }
-    /* Add some basic styling for the images */
+    
     .image {
       width: 100%;
       height: auto;
@@ -55,16 +54,16 @@
   </style>
 </head>
 <body>
-  <!-- Create a div with an ID of "image-container" to hold the images -->
+  
   <div id="image-container">
-    <!-- Create a div with a class of "image" for each image -->
+    
     <div class="image"><img src="Photos/Dog.jpg" /></div>
     <div class="image"><img src="Photos/Home.jpg" /></div>
     <div class="image"><img src="Photos/Shelookedolder.jpg" /></div>
     <div class="image"><img src="Photos/View.jpg" /></div>
   </div>
 
-  <!-- Add the JavaScript code to the page -->
+ 
   <script>
     var imageCount = 0;
 
