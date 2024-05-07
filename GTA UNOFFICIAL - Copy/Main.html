@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Wallpaper Changer</title>
+  <title>GTA V unofficial fan site</title>
   <style>
     
     body {
       margin: 0;
       padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
     }
+
+    
     #wallpaper {
-      position: fixed; 
+      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
@@ -17,15 +23,27 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-size: cover; 
+      background-size: cover;
+      flex-direction: column;
+    }
+
+    #text {
+      font-size: 3em;
+      color: white;
     }
   </style>
 </head>
 <body>
   
-  <div id="wallpaper"></div>
+  <div id="wallpaper">
+    <div id="text">
+      <h6>
+        
+      </h6>
+    </div>
+  </div>
 
- 
+  
   <script>
     var picArray = ["Photos/Dog.jpg", "Photos/Home.jpg", "Photos/Shelookedolder.jpg", "Photos/View.jpg"];
     var picCount = 0;
